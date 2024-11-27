@@ -1,0 +1,19 @@
+/* Estilos básicos para a tabela e layout */
+#tarefas-table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  #tarefas-table th, #tarefas-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  #tarefas-table tr:nth-child(even) {
+    background-color: #f2f2f2;
+  }
+  
+  #tarefas-table tr.highlight {
+    background-color: yellow;
+  }
+  
